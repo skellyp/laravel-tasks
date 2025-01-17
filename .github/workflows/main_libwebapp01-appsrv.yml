@@ -72,4 +72,7 @@ jobs:
           app-name: 'libwebapp01-appsrv'
           slot-name: 'Production'
           package: .
-          
+
+  #   - name: 'Run Migration'
+  #     run: php artisan migrate -force
+        
